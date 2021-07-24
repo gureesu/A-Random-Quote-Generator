@@ -40,10 +40,15 @@ quotes = [/*1st quote*/{quote: '',
 /***
  * `getRandomQuote` function
 ***/
-function getRandomQuote() {
-  let randomNumber = Math.round(Math.random())
+function getRandomQuote(array) {
+  let randomNumber = Math.round(Math.random() * quotes.length);
+  for (i = 0; i < array.length; i++) {
+    let randomQuote = array[randomNumber];
+  }
+  return randomQuote;
 }
 
+let result = getRandomQuote(quotes);
 
 /***
  * `printQuote` function
