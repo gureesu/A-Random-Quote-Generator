@@ -10,17 +10,30 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
+//Create a variable named quotes and set it equal to an empty array.
 let quotes = [];
-quotes = [{quote: '“Java is to JavaScript what car is to Carpet.”', 
-           source: 'Chris Heilmann'}, 
-          {quote: '“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”', 
-           source: 'Antoine de Saint-Exupery'}, 
-          {quote: '“Simplicity is the soul of efficiency.”', 
-           source: ''}, 
-          {quote: '', 
-           source: ''}, 
-          {quote: '', 
-           source: ''}]
+
+//Add a minimum of five objects to your quotes array with quote, source, citation and year properties.
+quotes = [/*1st quote*/{quote: '', 
+                        source: '',
+                        citaion: '',
+                        year: ''}, 
+          /*2nd quote*/{quote: '', 
+                        source: '', 
+                        citaion: '',
+                        year: ''}, 
+          /*3rd quote*/{quote: '', 
+                        source: '',
+                        citaion: '',
+                        year: ''}, 
+          /*4th quote*/{quote: '', 
+                        source: '',
+                        citaion: '',
+                        year: ''}, 
+          /*5th quote*/{quote: '', 
+                        source: '',
+                        citaion: '',
+                        year: ''}]
 
 /***
  * `getRandomQuote` function
