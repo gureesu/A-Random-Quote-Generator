@@ -13,7 +13,7 @@ project 1 - A Random Quote Generator
 //Create a variable named quotes and set it equal to an empty array.
 let quotes = [];
 
-//Add a minimum of five objects to your quotes array with quote, source, citation and year properties.
+//Add a minimum of five objects to your quotes array containing quote, source, citation and year properties.
 quotes = [/*1st quote*/{quote: '', 
                         source: '',
                         citaion: '',
@@ -35,10 +35,14 @@ quotes = [/*1st quote*/{quote: '',
                         citaion: '',
                         year: ''}]
 
+//console.log(quotes)
+
 /***
  * `getRandomQuote` function
 ***/
-
+function getRandomQuote() {
+  let randomNumber = Math.round(Math.random())
+}
 
 
 /***
