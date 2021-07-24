@@ -10,8 +10,17 @@ project 1 - A Random Quote Generator
 /*** 
  * `quotes` array 
 ***/
-
-
+let quotes = [];
+quotes = [{quote: '“Java is to JavaScript what car is to Carpet.”', 
+           source: 'Chris Heilmann'}, 
+          {quote: '“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”', 
+           source: 'Antoine de Saint-Exupery'}, 
+          {quote: '“Simplicity is the soul of efficiency.”', 
+           source: ''}, 
+          {quote: '', 
+           source: ''}, 
+          {quote: '', 
+           source: ''}]
 
 /***
  * `getRandomQuote` function
